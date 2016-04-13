@@ -67,7 +67,7 @@ function start() {
 	function loop() {
 		movefundo();
 		disparo();
-		movejogador();
+		//movejogador();
 		moveinimigo1();
 		moveinimigo2();
 		moveamigo();
