@@ -59,6 +59,17 @@ function start() {
         	$("#jogador").css("top",434);
 
             }
+
+             var left = parseInt($("#jogador").css("left"));
+    if (left<=0) {
+    	$("#joogador").css("left",0);
+
+    }
+        if (left>=410) {
+
+        	$("#jogador").css("left",434);
+
+            }
         } 
 
      });   
